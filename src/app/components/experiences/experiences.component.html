@@ -1,0 +1,8 @@
+<h3>Work Experiences</h3>
+<h2>My Experience</h2>
+<app-card *ngFor="let experience of experiences$ | async">
+  <img ngSrc="{{experience.icon}}" alt="{{experience.title}}" width="32" height="32"/>
+  <div>{{experience.title}}</div>
+  <div>{{experience.description}}</div>
+  <a [href]="experience.link" target="_blank">Read more -></a>
+</app-card>

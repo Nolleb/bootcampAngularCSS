@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Tuco",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet dolor doloribus eius error incidunt ipsa ipsum, labore laborum, maiores nam necessitatibus neque obcaecati quibusdam recusandae sequi similique ullam vero!",
+    "photo": "assets/img/tuco.jpg",
+    "job": "the ugly"
+  },
+  {
+    "id": 2,
+    "name": "Sentenza",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta dolorum eligendi excepturi, fugit illo ipsam itaque laboriosam laudantium libero minus numquam, odit perspiciatis quae ratione saepe sequi vel voluptatibus.",
+    "photo": "assets/img/sentenza.jpg",
+    "job": "the bad"
+  }
+]
