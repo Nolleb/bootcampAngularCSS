@@ -1,0 +1,8 @@
+@use 'css/settings/colors';
+
+$theme-colors: (
+  "theme-white" colors.$color-black colors.$color-theme-white,
+  "theme-purple" colors.$color-white colors.$color-theme-purple,
+  "theme-blue" colors.$color-white colors.$color-theme-blue,
+  "theme-black" colors.$color-white colors.$color-theme-black
+);

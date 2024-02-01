@@ -1,0 +1,21 @@
+@use '../settings/colors';
+@use '../tools/mixins';
+@use '../tools/typography';
+/*------------------------------------*\
+  #LINKS
+\*------------------------------------*/
+
+/**
+ * Default styles for simple hyperlinks.
+ */
+
+a {
+  color: colors.$color-links;
+  @include typography.font-weight(bold);
+  text-decoration: none;
+
+  @include mixins.hocus() {
+    text-decoration: underline;
+  }
+
+}

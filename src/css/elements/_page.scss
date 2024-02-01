@@ -1,0 +1,16 @@
+@use '../settings/global';
+@use '../settings/colors';
+/*------------------------------------*\
+  #PAGE
+\*------------------------------------*/
+
+/**
+ * Page-level styling (e.g. HTML and BODY elements).
+ */
+
+html {
+  font-size: (global.$global-font-size / 16px) * 1em;
+  line-height: global.$global-line-height / global.$global-font-size;
+  background-color: colors.$color-page-background;
+  color: colors.$color-page-text;
+}

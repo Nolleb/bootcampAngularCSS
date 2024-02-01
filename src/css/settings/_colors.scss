@@ -1,0 +1,34 @@
+///*----------------------------------*\
+//  #COLORS
+//\*----------------------------------*/
+
+// Colour palette.
+$color-brand-primary:               #3a5d9dff !default;
+$color-brand-primary-highlight:     lighten($color-brand-primary, 20%) !default;
+$color-brand-primary-shadow:        darken($color-brand-primary,  10%) !default;
+
+$color-brand-secondary:             #fc7871ff !default;
+$color-brand-secondary-highlight:   lighten($color-brand-secondary, 20%) !default;
+$color-brand-secondary-shadow:      darken($color-brand-secondary,  10%) !default;
+
+$color-ui:                          #e4e4e4 !default;
+
+$color-grey:                        #666 !default;
+$color-grey-dark:                   #333 !default;
+$color-black:                  #111111ff !default;
+$color-grey-light:                  #999 !default;
+$color-white:                       #fff !default;
+
+
+// Theme colors.
+$color-theme-white:                         #fff;
+$color-theme-purple:                   #e50e7dff;
+$color-theme-blue:                     #0f0ca3ff;
+$color-theme-black:                    #111111ff;
+
+//transform variables for angular component
+
+// Reassign literal variables to meaningful ones.
+$color-page-text:                       $color-grey-dark;
+$color-page-background:                 #f8f9fbff;
+$color-links:                           $color-brand-primary-shadow;

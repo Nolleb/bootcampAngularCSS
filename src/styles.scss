@@ -1,9 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 
+/*
+* SETTINGS
+* TOOLS
+* GENERIC
+* ELEMENTS
+* COMPONENTS
+* THEMES
+* UTILITIES
+*/
+
+/*** settings ****/
+@use 'css/settings/global';
+@use 'css/settings/colors';
+
+/***tools ***/
+@use 'css/tools/typography';
 /*** generic ****/
 @use 'css/generic/reset';
 @use 'css/generic/normalize';
 @use 'css/generic/box-sizing';
+
+/*** elements ***/
+@use 'css/elements/page';
+@use 'css/elements/links';
+@use 'css/elements/images';
+//@use 'css/elements/headings';
 
 /*** components ***/
 @use 'css/components/components.grid-custom';
