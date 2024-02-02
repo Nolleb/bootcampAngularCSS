@@ -3,24 +3,36 @@
     "id": 1,
     "title": "Predictive analysis",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet dolor doloribus eius error incidunt ipsa ipsum, labore laborum, maiores nam necessitatibus neque obcaecati quibusdam recusandae sequi similique ullam vero!",
-    "icon": "analysis"
+    "icon": "analytics",
+    "theme": "theme-white",
+    "readMore": false,
+    "signUp": true
   },
   {
     "id": 2,
     "title": "Computer vision",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta dolorum eligendi excepturi, fugit illo ipsam itaque laboriosam laudantium libero minus numquam, odit perspiciatis quae ratione saepe sequi vel voluptatibus.",
-    "icon": "vision"
+    "icon": "track_changes",
+    "theme": "theme-purple",
+    "readMore": true,
+    "signUp": false
   },
   {
     "id": 3,
     "title": "Natural language processing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid autem blanditiis cum dicta dolor doloribus eum fuga harum, impedit laboriosam laudantium nam odit officiis, praesentium quam, quo soluta ullam.",
-    "icon": "language"
+    "icon": "language",
+    "theme": "theme-blue",
+    "readMore": false,
+    "signUp": false
   },
   {
     "id": 4,
     "title": "Recommendations system",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eligendi esse facere, inventore itaque iusto laborum laudantium minus non numquam odit placeat quae quaerat quisquam sit! Culpa dolor et laboriosam?",
-    "icon": "system"
+    "icon": "settings_suggest",
+    "theme": "theme-black",
+    "readMore": true,
+    "signUp": true
   }
 ]

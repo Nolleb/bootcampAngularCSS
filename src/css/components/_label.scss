@@ -1,0 +1,34 @@
+.badge-label {
+  display: flex;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 5px 3px 5px;
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: var(--color-brand-primary);
+  position: absolute;
+  top: 55px;
+  right: -7px;
+
+  &::after {
+    content: "";
+    border-right: 7px solid transparent;
+    border-top: 5px solid #333333;
+    border-left: 0 solid transparent;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index:-1;
+  }
+
+  &--prime {
+    background: var(--color-subtitle);
+    top: 90px;
+  }
+
+  &__icon {
+    font-size: 20px;
+  }
+}

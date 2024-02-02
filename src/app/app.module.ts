@@ -13,6 +13,7 @@ import {BannerPubComponent} from './components/banner-pub/banner-pub.component';
 import {CardComponent} from './components/card/card.component';
 import {NgOptimizedImage} from "@angular/common";
 import {HttpClientModule} from "@angular/common/http";
+import { HeadingsComponent } from './components/headings/headings.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {HttpClientModule} from "@angular/common/http";
     ExperiencesComponent,
     PortfolioComponent,
     BannerPubComponent,
-    CardComponent
+    CardComponent,
+    HeadingsComponent
   ],
   imports: [
     BrowserModule,

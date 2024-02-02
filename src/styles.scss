@@ -25,8 +25,22 @@
 @use 'css/elements/page';
 @use 'css/elements/links';
 @use 'css/elements/images';
-//@use 'css/elements/headings';
+@use 'css/elements/headings';
+@use 'css/elements/paragraph';
 
 /*** components ***/
-@use 'css/components/components.grid-custom';
+@use 'css/components/wrapper';
+@use 'css/components/logo';
+@use 'css/components/button';
+@use 'css/components/title-underline';
+@use 'css/components/label';
+
+/*** components ***/
+@use 'css/themes/themes';
+
+/*** utilities ***/
+@use 'css/utilities/flex';
+@use 'css/utilities/spacings';
+@use 'css/utilities/positions';
+@use 'css/utilities/text';
 

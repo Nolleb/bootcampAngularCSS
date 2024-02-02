@@ -1,0 +1,41 @@
+@use "../../../css/themes/themes";
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 3px 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+
+  :host(.is-featured) & {
+    background: var(--color-subtitle);
+  }
+
+  @each $name, $color, $background in themes.$theme-colors {
+    :host(.#{$name}) & {
+      color: $color;
+      background: $background;
+    }
+  }
+}
+
+.badge-label {
+  display: none;
+  :host(.has-read-more) & {
+    display: block;
+  }
+  &--prime {
+    :host(.has-read-more) & {
+      display: none;
+    }
+  }
+}
+
+.badge-label--prime {
+  display: none;
+  :host(.has-sign-up) & {
+    display: block;
+  }
+}
+

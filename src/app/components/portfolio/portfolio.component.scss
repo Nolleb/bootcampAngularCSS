@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 0 0 calc(33.33% - 20px);
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+
+.image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}

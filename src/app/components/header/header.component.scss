@@ -1,1 +1,39 @@
+.content {
+  background-image: linear-gradient(rgba(58, 93, 157, .9), rgba(58, 93, 157, .75)), url('../../../assets/img/clint.jpg');
+  min-height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  display: flex;
+  flex-direction: column;
+
+  &__inner {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.header {
+  max-width: 65%;
+  color: #fff;
+  padding-top: 20px;
+
+  &__subtitle {
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    line-height: 1;
+    margin-top: 0;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.nav {
+  border-bottom: 1px solid #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

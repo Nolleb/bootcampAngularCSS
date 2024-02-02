@@ -1,7 +1,18 @@
-<h3>What I Do For You</h3>
-<h2>My Services</h2>
-<app-card *ngFor="let service of services">
-  <div>{{service.icon}}</div>
-  <div>{{service.title}}</div>
-  <div>{{service.description}}</div>
-</app-card>
+<app-headings title="My Services" subtitle="What I Do For You"></app-headings>
+<div class="row mb-40">
+  <div class="column" *ngFor="let service of services; let index = index;">
+    <app-card
+      [class]="service.theme"
+      [ngClass]="{'has-read-more': service.readMore, 'has-sign-up': service.signUp}"
+    >
+      <span class="is-absolute index">0{{index + 1}}</span>
+      <span class="material-icons">{{service.icon}}</span>
+      <div class="title-underline">
+        <span class="title-underline__inner">
+          {{service.title}}
+        </span>
+      </div>
+      <p>{{service.description}}</p>
+    </app-card>
+  </div>
+</div>

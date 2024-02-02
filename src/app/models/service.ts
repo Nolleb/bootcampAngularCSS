@@ -1,5 +1,8 @@
 export interface Service {
   title: string,
   description: string,
-  icon: string
+  icon: string,
+  theme: string,
+  readMore: boolean,
+  signUp: boolean
 }

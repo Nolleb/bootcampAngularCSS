@@ -13,11 +13,12 @@ $color-brand-secondary-shadow:      darken($color-brand-secondary,  10%) !defaul
 
 $color-ui:                          #e4e4e4 !default;
 
-$color-grey:                        #666 !default;
-$color-grey-dark:                   #333 !default;
-$color-black:                  #111111ff !default;
-$color-grey-light:                  #999 !default;
-$color-white:                       #fff !default;
+$color-grey:                                         #666 !default;
+$color-grey-dark:                                    #333 !default;
+$color-black:                                   #111111ff !default;
+$color-grey-light:                                   #999 !default;
+$color-grey-highlight:              lighten($color-grey-light, 15%);
+$color-white:                                        #fff !default;
 
 
 // Theme colors.
@@ -26,9 +27,14 @@ $color-theme-purple:                   #e50e7dff;
 $color-theme-blue:                     #0f0ca3ff;
 $color-theme-black:                    #111111ff;
 
-//transform variables for angular component
-
 // Reassign literal variables to meaningful ones.
 $color-page-text:                       $color-grey-dark;
 $color-page-background:                 #f8f9fbff;
-$color-links:                           $color-brand-primary-shadow;
+$color-links:                           $color-brand-secondary;
+
+//transform variables for angular component
+:root {
+  --color-subtitle: #{$color-brand-secondary};
+  --color-brand-secondary: #{$color-brand-secondary};
+  --color-brand-primary: #{$color-brand-primary};
+}

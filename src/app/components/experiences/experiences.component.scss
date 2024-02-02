@@ -1,0 +1,36 @@
+@use "../../../css/tools/typography";
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 0 0 calc(25% - 20px);
+  min-height: 100px;
+}
+
+.icon {
+  color: var(--color-subtitle);
+  font-size: 24px;
+
+  .is-featured & {
+    color: #fff;
+  }
+}
+
+.title {
+  font-size: 16px;
+  @include typography.font-weight(bold);
+
+  .is-featured & {
+    color: #fff;
+  }
+}
+
+.paragraph, .link {
+  .is-featured & {
+    color: #fff;
+  }
+}

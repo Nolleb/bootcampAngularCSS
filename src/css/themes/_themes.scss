@@ -1,4 +1,4 @@
-@use 'css/settings/colors';
+@use '../settings/colors';
 
 $theme-colors: (
   "theme-white" colors.$color-black colors.$color-theme-white,

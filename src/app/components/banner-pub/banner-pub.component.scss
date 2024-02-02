@@ -1,0 +1,22 @@
+.content {
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(252, 120, 113, .75), rgba(252, 120, 113, .65)), url('../../../assets/img/the-good-the-bad-and-the-ugly.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text {
+  max-width: 60%;
+  font-size: 20px;
+  line-height: 1.5;
+}

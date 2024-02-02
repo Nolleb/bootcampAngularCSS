@@ -3,28 +3,32 @@
     "id": 1,
     "title": "My experience",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet dolor doloribus eius error incidunt ipsa ipsum, labore laborum, maiores nam necessitatibus neque obcaecati quibusdam recusandae sequi similique ullam vero!",
-    "icon": "experience",
-    "link": ""
+    "icon": "supervised_user_circle",
+    "link": "https://fr.wikipedia.org/wiki/Sur_%C3%A9coute",
+    "featured": false
   },
   {
     "id": 2,
     "title": "My office",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dicta dolorum eligendi excepturi, fugit illo ipsam itaque laboriosam laudantium libero minus numquam, odit perspiciatis quae ratione saepe sequi vel voluptatibus.",
-    "icon": "office",
-    "link": ""
+    "icon": "maps_home_work",
+    "link": "https://fr.wikipedia.org/wiki/The_Office_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e,_2005)",
+    "featured": true
   },
   {
     "id": 3,
     "title": "My approach",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid autem blanditiis cum dicta dolor doloribus eum fuga harum, impedit laboriosam laudantium nam odit officiis, praesentium quam, quo soluta ullam.",
-    "icon": "approach",
-    "link": ""
+    "icon": "thumb_up",
+    "link": "https://fr.wikipedia.org/wiki/Six_Feet_Under_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+    "featured": false
   },
   {
     "id": 4,
     "title": "My clients",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eligendi esse facere, inventore itaque iusto laborum laudantium minus non numquam odit placeat quae quaerat quisquam sit! Culpa dolor et laboriosam?",
-    "icon": "clients",
-    "link": ""
+    "icon": "support_agent",
+    "link": "https://fr.wikipedia.org/wiki/Breaking_Bad",
+    "featured": false
   }
 ]

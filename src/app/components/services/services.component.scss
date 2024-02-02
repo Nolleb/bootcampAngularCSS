@@ -1,0 +1,22 @@
+@use "../../../css/themes/themes";
+@use "../../../css/tools/typography";
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 0 0 calc(25% - 20px);
+  min-height: 100px;
+}
+
+.index {
+  right: 20px;
+  top: 24px;
+  font-size: 18px;
+  color: currentColor;
+  @include typography.font-weight(bold);
+}

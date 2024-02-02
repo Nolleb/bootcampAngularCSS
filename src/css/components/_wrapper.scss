@@ -1,0 +1,8 @@
+@use "../settings/global";
+
+.wrapper {
+  &__inner {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}

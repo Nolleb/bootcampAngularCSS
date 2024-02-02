@@ -1,0 +1,24 @@
+@use "../settings/colors";
+
+.c-btn {
+  width: fit-content;
+  height: 40px;
+  color: colors.$color-brand-primary;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  outline: none;
+  border: 1px solid colors.$color-brand-primary;
+  background: colors.$color-white;
+
+  &--secondary {
+    background: colors.$color-brand-secondary;
+    color: colors.$color-white;
+    border: 1px solid transparent;
+  }
+
+  &--small {
+    padding: 5px 10px;
+  }
+}

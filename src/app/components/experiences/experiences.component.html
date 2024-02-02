@@ -1,8 +1,12 @@
-<h3>Work Experiences</h3>
-<h2>My Experience</h2>
-<app-card *ngFor="let experience of experiences$ | async">
-  <img ngSrc="{{experience.icon}}" alt="{{experience.title}}" width="32" height="32"/>
-  <div>{{experience.title}}</div>
-  <div>{{experience.description}}</div>
-  <a [href]="experience.link" target="_blank">Read more -></a>
-</app-card>
+<app-headings title="My Experience" subtitle="Work Experiences"></app-headings>
+
+<div class="row mb-40">
+  <div class="column" *ngFor="let experience of experiences$ | async">
+    <app-card [class.is-featured]="experience.featured">
+      <span class="icon material-icons">{{experience.icon}}</span>
+      <div class="title">{{experience.title}}</div>
+      <p class="paragraph">{{experience.description}}</p>
+      <a [href]="experience.link" target="_blank" class="link">Read more <span>&#x279C;</span></a>
+    </app-card>
+  </div>
+</div>
